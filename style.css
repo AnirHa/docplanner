@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: auto;
+    font-family: sans-serif;
+    color: #252525 
+    
+}
+.docplanner-header{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(223, 216, 216);
+}
+.log1{
+color: #00b39b;
+}
+.log2{
+color: #9e9b9b;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+}
+a {
+    color: #252525 ; 
+    text-decoration: none;
+}
+a:visited {
+   color: #252525;
+}
+.active {
+    color: #5dc6b0;
+}
+
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.introduction-logo {
+width: 200px;
+    
+   
+}
+.title {
+    text-align: center;
+    color: #00b39b;
+    font-size: 2.125rem;
+    font-family:Arial,sans-serif ;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    box-sizing: inherit;
+}
+.introduction-title {
+    
+    margin-top: 1em;
+}
+
+.introduction-text {
+    margin-top: 10px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.introduction-paragraph {
+   width: 300px;
+}
+.services {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.service-card {
+    width: 300px;
+    padding: 20px ;
+    border-radius: 8px;
+    color: white;
+    margin: 10px; 
+}
+.service-card-patient {
+     background-color: #5dc6b0 ;
+}
+.service-card-doctors {
+     background-color: #4293db ;
+}
+.service-card-select {
+    background-color: white;
+    padding: 10px;
+    border-radius:5px  ;
+
+}
+.brand-section {
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+   margin-bottom: 67px;
+   box-sizing: inherit;
+   
+   
+}
+.brand-section h2 {
+    width: 290px;
+    font-family: "work sans",Arial , sans-serif ;
+    font-size: 30px ;
+    padding-right: 200px;
+    color: rgb(0, 179 , 155);
+}
+.lekars{
+    display: flex;
+    align-items: flex-start;
+    color: #9e9b9b;
+}
+.img2{
+    width: 15px;
+}
+
+.stats-container {
+    background-color: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    display: flex;
+    height: 380px;
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+
+.step1 {
+     padding-left: 120px;
+
+}
+
+
+.introduction-box .intro {
+    color: rgb(0,177,159);
+    font-family: 'Charmonman', cursive;
+    margin-bottom: 7%;
+}
+.introduction-box .pparagraph {
+    opacity: 0.4;
+}
+.introduction-logo .img3 {
+    height: 231px;
+    width: 100%;
+    margin-top: 60px;
+}
+.stats {
+    text-align: center;
+    width: 60%;
+    margin: 0 4% 0 19%;
+}
+.stats h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+    .stats-box {
+        height: 190px;
+        background-color: white;
+        border-radius: 7%;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .stats-box-colomn-2 {
+        display: flex;
+        margin-top:5%;
+    }
+    .stats-box-colomn-1 {
+        display: flex;
+    }
+
+.box-3 p {
+    margin-right: 17%;
+    margin-top: -5%;
+    margin-left: 17%;
+}
+
+
+
+
+.offices-description {
+    text-align: center;
+}
+.offices-description h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+.offices-description p {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 4%;
+}
+.offices-colomn-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.offices-colomn-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.offices-colomn-1 h1 {
+    font-family: 'Charmonman', cursive;
+}
+.offices-box h2 {
+    font-family: 'Charmonman', cursive;
+}
+.opening-information {
+    text-align: right;
+    margin-top: -10%;
+}
+.opening-information input {
+    background-color: rgb(61,131,223);
+    color:white;
+    height: 31px;
+    border-radius: solid 1px;
+    border-color: rgb(61,131,223);
+    
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.step2 {
+    font-family: " Roboto,Arial,sans-serif" ;
+    padding-bottom: 20px;
+}
+
+.bouton{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background-color: #3d83df;
+    letter-spacing: .04em;
+    font-family: "roboto, arial, sans serif";
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    font-size: .75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+footer
+ {  border-top: 1px solid rgba(196,196,196,0.7);
+    text-align: center;
+    color: black;
+
+}
+.footer {
+    display: flex;
+    text-align: center;
+}
+.footer p {
+    width: 32%;
+    color: black;
+    opacity: .7;
+    margin-left: 20%;
+    margin-bottom: 0.5%;
+}
+.offices-list {
+   margin-right: 300px;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(61,131,223);
+}
+
+
